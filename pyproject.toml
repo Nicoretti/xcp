@@ -1,6 +1,6 @@
 [project]
 name = "universal-calibration-protocol"
-version = "0.1.0"
+version = "0.2.0"
 description = "Pure python xcp protocol implementation"
 authors = [{ name = "Nicola Coretti", email = "nico.coretti@gmail.com" }]
 maintainers = [{ name = "Nicola Coretti", email = "nico.coretti@gmail.com" }]
