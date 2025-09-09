@@ -36,8 +36,6 @@ packages = ["src/xcp"]
 [dependency-groups]
 dev = [
     "rust-just>=1.42.4",
-]
-doc = [
     "mkdocs>=1.6.1",
     "mkdocs-material>=9.6.19",
 ]

@@ -447,20 +447,18 @@ source = { editable = "." }
 
 [package.dev-dependencies]
 dev = [
-    { name = "rust-just" },
-]
-doc = [
     { name = "mkdocs" },
     { name = "mkdocs-material" },
+    { name = "rust-just" },
 ]
 
 [package.metadata]
 
 [package.metadata.requires-dev]
-dev = [{ name = "rust-just", specifier = ">=1.42.4" }]
-doc = [
+dev = [
     { name = "mkdocs", specifier = ">=1.6.1" },
     { name = "mkdocs-material", specifier = ">=9.6.19" },
+    { name = "rust-just", specifier = ">=1.42.4" },
 ]
 
 [[package]]
