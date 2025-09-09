@@ -3,6 +3,10 @@
 
 ## Changelog
 
+### 0.3.0 
+
+- Updated project metadata
+
 ### 0.2.0 
 
 - Added README

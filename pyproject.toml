@@ -19,6 +19,13 @@ classifiers = [
 ]
 dependencies = []
 
+[project.urls]
+Repository = "https://github.com/Nicoretti/xcp"
+Homepage = "https://nicoretti.github.io/xcp/"
+Documentation = "https://nicoretti.github.io/xcp/"
+Source = "https://github.com/Nicoretti/xcp"
+Issues = "https://github.com/Nicoretti/xcp/issues"
+
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
