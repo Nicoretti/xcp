@@ -1,0 +1,54 @@
+site_name: XCP
+site_url: https://nicoretti.github.io/xcp/
+repo_name: nicoretti/xcp
+repo_url: https://github.com/Nicoretti/xcp
+
+nav:
+  - "index.md"
+  - "changelog.md"
+
+theme:
+  name: material
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    - media: '(prefers-color-scheme: light)'
+      scheme: default
+      primary: yellow
+      accent: black
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+    - media: '(prefers-color-scheme: dark)'
+      scheme: slate
+      primary: black
+      accent: yellow
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+  features:
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.copy
+  font: false
+copyright: >
+  Copyright &copy; 2025 Nicola Coretti
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight:
+      use_pygments: true
+  - pymdownx.superfences
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
+watch:
+  - .
+
+
+plugins:
+- search
